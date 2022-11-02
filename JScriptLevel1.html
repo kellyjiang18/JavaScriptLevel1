@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title></title>
+        <style></style>
+        <script>
+            console.log
+            function greet()
+            {("Hello World.");}
+            function shoutTen()
+            {console.log("10!");}
+            function countdown()
+            {
+                console.log(10);
+                console.log(9);
+                console.log(8);
+                console.log(7);
+                console.log(6);
+                console.log(5);
+                console.log(4);
+                console.log(3);
+                console.log(2);
+                console.log(1);
+            }
+            function initialize()
+            {
+                num1=3;
+                num2=7;
+            }
+            function addNumbers()
+            {
+                var result = num1 + num2;
+                console.log(result);
+            }
+            function subtractNumbers()
+            {
+                var result = num1 - num2;
+                console.log(result);
+            }
+            function multiplyNumbers()
+            {
+                var result = num1 * num2;
+                console.log(result);
+            }
+            function divideNumbers()
+            {
+                var result = num1 / num2;
+                console.log(result);
+            }
+        </script>
+    </head>
+
+    <body onload="initialize();">
+        <button onClick = "shoutTen();">Shout 10</button>
+        <button onClick="countdown();">Countdown</button>
+        <button onClick="addNumbers();">Add the 2 Numbers</button>
+        <button onClick="subtractNumbers();">Subtract the 2 Numbers</button>
+        <button onClick="multiplyNumbers();">Multiply the 2 Numbers</button>
+        <button onClick="divideNumbers();">Divide the 2 Numbers</button>
+    </body>
+</html>
